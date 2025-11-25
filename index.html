@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="culturama-favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Pesquisa Culturama</title>
 </head>
 <body>
+    <main>
     <header>
+        <img src="./img/logo-culturama.png" alt="Logo Culturama">
         <h1>Pesquisa Online</h1>
     </header>
     <section>
@@ -45,9 +52,11 @@
                 <p>Gênero</p>
                 <input id="masculino" type="radio" value="masculino" name="userGender">
                 <label for="masculino">Masculino</label>
+                <br>
 
                 <input id="feminino" type="radio" value="feminino" name="userGender">
                 <label for="feminino">Feminino</label>
+                <br>
 
                 <input id="notInformed" type="radio" value="notInformed" name="userGender">
                 <label for="notInformed">Prefiro não informar</label>
@@ -159,7 +168,7 @@
                 <label for="ruim">Ruim</label>
                 <br>
 
-                <label for="comments">Comentários</label>
+                <label for="comments">Escreva sua opinião:</label>
                 <textarea name="userComments" id="comments" placeholder="Digite seu comentário aqui..."></textarea>
 
             </fieldset>
@@ -181,5 +190,6 @@
             <button type="reset">Limpar</button>
         </form>
     </section>
+    </main>
 </body>
 </html>
