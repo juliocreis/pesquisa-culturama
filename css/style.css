@@ -78,6 +78,15 @@ input[type="color"] {
     width: 40px;
 }
 
+input[type="tel"] {
+    margin-bottom: 0;
+}
+
+small {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
 input:invalid, select:invalid, textarea:invalid {
     border-color: red;
 }
