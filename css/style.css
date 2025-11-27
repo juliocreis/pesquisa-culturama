@@ -78,11 +78,7 @@ input[type="color"] {
     width: 40px;
 }
 
-input[type="tel"] {
-    margin-bottom: 0;
-}
-
-input[type="file"] {
+input[type="tel"], input[type="file"] {
     margin-bottom: 0;
 }
 
